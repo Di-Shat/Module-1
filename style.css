@@ -99,6 +99,7 @@ header nav button:hover{
     margin-top: 35px;
     padding: 10px 25px;
     background: rgb(255,255,255);
+    border: 1px solid white;
     color: rgb(64, 64, 64);
     font-size: 17px;
     font-weight:bolder;
@@ -126,7 +127,7 @@ main {
 }
 .main-head {
     display: flex;
-    padding: 0px 35px;
+    padding: 20px 35px;
 }
 .main-head-img {
   margin-right: 25px;
