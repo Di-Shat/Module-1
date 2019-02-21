@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Calibri', sans-serif;
+}
+.wrapper {
+    min-height: 100%;
+}
+/* --------------------------------all----------------------------------- */
+.container{
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 0 40px; 
+}
+ul {
+list-style: none;
+}
+a {
+text-decoration: none;
+}
+img{
+    max-width:100%;
+}
+/*----------------------------- header -----------------------------------*/
+
+header{
+    background: rgb(64,64,64);
+}
+header a,button{
+    color:white;
+    font-size: 15px; 
+    outline: none;
+}
+.header-logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.logo{
+    font-size: 22px;
+    color: white;
+}
+.logo span {
+    font-weight: bold;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    padding-left: 60px;
+}
+header nav a:hover {
+    border-right: 1px solid rgb(55, 159, 207);
+    padding-right: 20px;
+    transition: 0.4s;
+    color:rgb(55, 159, 207);
+}
+header nav button {
+    color: rgb(255,255,255);
+    padding: 15px 25px;
+    background: #3E3E3E;
+    border: 1px solid #9F9F9F;
+    font-size: 15px; 
+}
+header nav button:hover{
+    background: rgb(55, 159, 207);
+    color: rgb(64,64,64);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0 100px;
+}
+.header-text {
+    color: white;
+    flex-basis: 320px;
+}
+.header-text h1 {
+    font-size: 43px;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+.header-text p {
+    font-size: 17px;
+    line-height: 2.0em;
+    margin-top: 20px;
+}
+.header-text button {
+    margin-top: 35px;
+    padding: 10px 25px;
+    background: rgb(255,255,255);
+    color: rgb(64, 64, 64);
+    font-size: 17px;
+    font-weight:bolder;
+}
+.header-text button:hover{
+    background: rgb(55, 159, 207);
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+    border-style:none;
+}
+.header-image {
+    margin-top: 50px;
+}
+/* ------------------------------------------------------------------- */
+/* -------------------------------main-------------------------------- */
+
+
+main {
+    padding-top: 150px;
+}
+.main-head-all{
+    display: flex;
+    padding-bottom: 170px;
+}
+.main-head {
+    display: flex;
+    padding: 0px 35px;
+}
+.main-head-img {
+  margin-right: 25px;
+}
+.main-head-img img {
+    width: 220px;
+    border-radius: 50%;
+}
+.main-head-content{
+    line-height: 2em;
+    font-size: 18px;
+}
+.main-head-content h3 {
+    font-size: 27px;
+    font-weight:lighter;
+}
+.main-head-content p{
+    font-size: 16px;
+    line-height: 1.5em;
+    color: rgb(126, 122, 122);
+}
+.main-head:hover {
+    background: rgb(64, 64, 64);
+    border-radius:12px; 
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.main-center {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.main-center-img {
+margin-right: 100px;
+}
+.main-content-title h2 {
+    font-size: 46px; 
+    font-weight: lighter ;
+    margin-bottom: 15px;
+}
+.main-content-title p {
+    font-size: 14px;
+    color: rgb(126, 122, 122); 
+    line-height: 2.0em;
+}
+.main-content-description {
+    display:grid;
+    grid-template-columns:  1fr 1fr;
+    grid-column-gap: 50px;
+    margin-top: 30px;
+}
+/* --------------------------------grid------------------------------------ */
+.description{
+    display:grid;
+    grid-template-columns:  auto auto;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.main-news {
+    margin-bottom: 140px;
+}
+.main-news-block {
+    border: 1px solid gray;
+    max-width: 360px;
+   
+}
+.news-content {
+ padding: 25px 20px;
+ color: rgb(126, 122, 122);
+}
+.news-content h3 {
+    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+.news-content p {
+    font-size: 16px;
+    opacity: 0.5;
+}
+.main-news-title h2,small {
+   display: flex;
+    justify-content: center;
+     margin: 30px 0;
+}
+.main-news-title h2 {
+    font-size: 52px;
+    font-weight: lighter;
+    color: rgb(64, 64, 64);
+}
+.main-news-title small {
+    font-size: 16px;
+    line-height: 2.0em;
+    text-align:center; 
+    color: rgb(126, 122, 122);
+    opacity: 0.5;
+    margin-bottom: 55px;
+}
+/* ----------------------------------------grid--------------------------- */
+.main-news-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+.main-download {
+    background: rgb(64, 64, 64);
+    padding:50px 0 60px 0;
+    text-align: center;
+}
+.download-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.download-title h2{
+    color: white;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.download-button {
+    display: flex;
+    justify-content: center;
+}
+.download-button button{
+    width: 230px;
+   display: flex;
+   margin: 40px 30px;
+   padding: 10px;
+   align-items: center;
+   color: rgb(64, 64, 64);
+} 
+.download-button img {
+    padding: 0 10px;
+}
+.download-button .up {
+    font-size: 10px;
+    font-weight: bold;
+}
+.download-button .store {
+    font-size: 22px;
+    font-weight: lighter;
+    color:rgb(71, 67, 67);
+}
+.download-button button:hover {
+    background: rgb(55, 159, 207);
+    transition: 0.2s;
+    cursor: pointer;
+    border-style:none;
+    color: white;
+}
+/* -------------------------------------------------------------------- */
+/* -------------------------------------footer------------------------ */
+
+.footer-content {
+    margin: 50px 0;
+    color: rgb(64, 64, 64);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.footer-content a,.logo-text {
+    color: rgb(126, 122, 122);
+    opacity: 0.5;
+}
+.footer-content .footer-block {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    margin-right: 20px;
+}
+.footer-block p {
+    margin-bottom: 10px;
+}
+.logo-text{
+margin-top: 20px;
+}
+.footer-block a {
+    padding: 10px 0;
+}
+footer span {
+    font-weight: bold;
+}
+.footer-author {
+    text-align: center;
+    padding-top: 5px;
+    margin: 30px 0;
+}
+.footer-content a:hover {
+    color: rgb(55, 159, 207);
+}
+/* ------------------------------------------------------------------------- */
+/* ----------------------------media-query--------------------------------------- */
+
+@media screen and (max-width: 970px){
+.header-content {
+        justify-content: center;
+    }
+.header-logo-nav {
+        flex-direction: column;
+      }
+.header-logo-nav nav {
+          padding: 30px 0 0;
+      }
+.header-logo-nav nav ul {
+          flex-direction: column;
+      }
+.header-logo-nav li {
+          padding: 8px 0
+      }
+.header-logo-nav button {
+          margin-top: 20px;
+      }
+.header-text{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+.header-text h1,p {
+    text-align: center;
+}
+.header-text button {
+   padding: 10px 3px;
+    margin: 20px 25%;
+}  
+main {
+ padding-top: 50px;
+
+}
+.main-head-all {
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+.main-head {
+    padding: 20px 15px;
+}
+  .main-head-img img {
+      width: 100%;
+      border-radius: 50%;
+  }
+  .main-center {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.main-center-img {
+margin-right: 0;
+}
+.main-content-title h2 {
+    text-align: center;
+    font-size: 42px; 
+    margin-bottom: 10px;  
+}
+.main-content-description {
+    grid-template-columns: 1fr;
+    padding-left: 25%;
+}
+.description{
+    max-width:250px; ;
+}
+.main-news-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+.main-news-block {
+    margin-bottom: 25px;
+}
+.main-download {
+    padding: 20px 0 40px 0;
+}
+.download-button {
+    flex-wrap: wrap;
+}
+.download-button button{
+   margin: 20px 10px;
+} 
+.footer-content {
+    flex-wrap: wrap;
+}
+}
